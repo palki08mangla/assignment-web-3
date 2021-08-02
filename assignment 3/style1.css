@@ -1,0 +1,30 @@
+button{
+    
+    height:150px;
+    width:300px;
+    font-size: 2rem;
+    position: fixed;
+    top:50%;
+    right:40%;
+    background-color: black;
+    color: #0bf4f3;
+   
+    border: 2px solid #0bf4f3;
+    box-shadow:  0px 0px 5px #0bf4f3,  0 0 5px #0bf4f3 inset;
+   transition: 150ms;
+}
+body{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover,button:focus
+{ 
+    color: #fff352;
+    border: 1px solid #fff352;
+    box-shadow: 0.2em 0.5em 0.5em -0.4em #fff352;
+    transition: 0.2s linear;  
+    transform:translateY(-8px);
+    cursor:pointer;
+}
